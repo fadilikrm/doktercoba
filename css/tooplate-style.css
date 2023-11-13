@@ -313,7 +313,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   header span.date-icon {
-    border-left: 1px solid #f2f2f2;
+    border-left: 1px solid #D83030;
     padding-right: 19px;
     padding-left: 19px;
   }
@@ -336,6 +336,10 @@ http://www.tooplate.com/view/2098-health
     margin-bottom: 0;
     padding: 10px;
     position: relative;
+  }
+
+  .dropdown-toggle ul li a{
+    color: #d83030;
   }
 
     .navbar-toggle{
@@ -998,6 +1002,9 @@ http://www.tooplate.com/view/2098-health
 
   @media only screen and (max-width: 767px) {
     
+    .dropdown-toggle ul li a{
+      color: #d83030;
+    } 
 
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
       border-color: transparent;
@@ -1054,6 +1061,10 @@ http://www.tooplate.com/view/2098-health
         justify-content: space-between;
       }
     
+      .dropdown-toggle ul li a{
+        color: #d83030;
+      }
+
     h1 {
       font-size: 3em;
       line-height: 1.2em;

@@ -1,16 +1,9 @@
-/*
+@font-face{font-family:gotham rounded;font-style:normal;font-weight:400;src:local('Gotham Rounded'),url('https://fonts.cdnfonts.com/s/22255/Gotham Rounded.woff') format('woff')}
 
-Template 2098 Health
-
-http://www.tooplate.com/view/2098-health
-
-*/
-
-  @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
   body {
     background: #ffffff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Gotham Rounded', sans-serif;
     overflow-x: hidden;
   }
 
@@ -34,7 +27,7 @@ http://www.tooplate.com/view/2098-health
 
   h1 {
     color: #D83030;
-    font-size: 5em;
+    font-size: 4em;
   }
 
   h2 {
@@ -75,8 +68,8 @@ http://www.tooplate.com/view/2098-health
       line-height: 24px;
   }
   header a{
-    color: #D83030;
-    font-size: 18px;
+    color: #ffffff;
+    font-size: 15px;
     font-weight: normal;
     line-height: 24px;
   }
@@ -284,10 +277,10 @@ http://www.tooplate.com/view/2098-health
   -----------------------------------------*/
 
   header {
-    background: #ffffff;
+    background: #D83030;
     border-bottom: 1px solid #f2f2f2;
     display: flex;
-    height: 45px;
+    height: 50px;
   }
 
   header .col-md-8 {
@@ -303,7 +296,7 @@ http://www.tooplate.com/view/2098-health
 
   header a,
   header span {
-    color: #D83030;
+    color: #ffffff;
   }
 
   header span {
@@ -313,7 +306,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   header span.date-icon {
-    border-left: 1px solid #D83030;
+    border-left: 1px solid #ffffff;
     padding-right: 19px;
     padding-left: 19px;
   }

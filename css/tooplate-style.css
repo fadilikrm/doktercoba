@@ -45,7 +45,7 @@
 
   h4 {
     color: #D83030;
-    font-size: 1em;
+    font-size: 1.3em;
     padding-bottom: 2px;
   }
 
@@ -63,7 +63,7 @@
 
   footer p{
       color: #D83030;
-      font-size: 14px;
+      font-size: 16px;
       font-weight: normal;
       line-height: 24px;
   }
@@ -852,12 +852,12 @@
   .copyright-text p,
   .footer-link a {
     color: #D83030;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 500;
   }
 
   .footer-link a {
-    font-size: 12px;
+    font-size: 15px;
     display: inline-block;
     padding: 0 10px;
     margin-top: 4px;

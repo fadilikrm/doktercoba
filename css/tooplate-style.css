@@ -409,16 +409,16 @@
 
   .slider .container {
     width: 100%;
-  }
+}
 
-  .slider .owl-dots {
-      position: absolute;
-      top: 575px;
-      width: 100%;
-      justify-content: center;
-  }
+.slider .owl-dots {
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    justify-content: center;
+}
 
-  .owl-theme .owl-dots .owl-dot span {
+.owl-theme .owl-dots .owl-dot span {
     width: 8px;
     height: 8px;
     margin: 5px 7px;
@@ -428,46 +428,72 @@
     backface-visibility: visible;
     transition: opacity 200ms ease;
     border-radius: 30px;
-  }
+}
 
-  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background-color: #ffffff;
     border-color: transparent;
-  }
+}
 
 .slider .item {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .slider .item .image {
-  background-position: inherit;
-  background-repeat: no-repeat;
-  background-attachment: local;
-  background-size: cover;
-  height: 650px;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    height: 100vh;
+    object-fit: cover;
 }
 
 .caption {
-  padding: 40px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  cursor: e-resize;
-  background-color:#D83030;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    cursor: e-resize;
+    background-color:#722017;
 }
-  .slider .item .image-first {
+
+.slider .item .image-first {
     background-image: url(../images/slider1.jpg);
-  }
+}
 
-  .slider .item .image-second {
+.slider .item .image-second {
     background-image: url(../images/slider2.jpg);
-  }
+}
 
-  .slider .item .image-third {
+.slider .item .image-third {
     background-image: url(../images/slider3.jpg);
-  }
+}
+
+@media (max-width: 992px){
+    .slider .item .image {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 768px){
+    .slider .item .image {
+        height: 40vh;
+    }
+}
+
+@media (max-width: 576px){
+    .slider .item .image {
+        height: 30vh;
+    }
+}
+
+@media (max-width: 360px){
+    .slider .item .image {
+        height: 20vh;
+    }
+}
 
 
   /*---------------------------------------
